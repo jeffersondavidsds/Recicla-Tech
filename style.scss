@@ -17,6 +17,7 @@ header{
     align-items: center;
     padding: 20px;
     background-color: #f4f4f4;
+    box-shadow: #000000 0px 4px 6px -1px;
 
     img{
         width: 5vh;
@@ -25,12 +26,13 @@ header{
 
 
     h1{
-        background-color: #98989800;
-        margin-right: 120vh;
+        font-size: 5vh;
+        margin-left: 2vh;
+        margin-right: 116vh;
         border-radius: 10px;
         padding: 5px;
-        color: rgb(71, 71, 71);
-        box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        color: rgb(39, 39, 39);
+        text-shadow: 2px 2px 5px #424242 ;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     nav a{
