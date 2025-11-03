@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //Evenly tem o mesmo espaçamento entre os elementos espaçamento entre os elementos.
+
+    //Around as extremidades são menores que as do centro.
+
+    //Between o primeiro e o último elemento ficam grudados no começo e final.
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+
+    img{
+        width: 5vh;
+        height: 5vh;
+    }
+
+
+    h1{
+        background-color: #98989800;
+        margin-right: 120vh;
+        border-radius: 10px;
+        padding: 5px;
+        color: rgb(71, 71, 71);
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    nav a{
+        
+        margin: 0 1vh 10vh;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+}
