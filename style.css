@@ -36,4 +36,52 @@ header nav a {
   color: #333;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.produtosdisponiveis {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
+}
+.produtosdisponiveis article {
+  box-shadow: #000000 0px 4px 6px -1px;
+  background-color: rgba(244, 244, 244, 0.1137254902);
+  border-radius: 10px;
+  width: 18%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-left: 10vh;
+  margin-top: 10vh;
+  justify-content: space-between;
+}
+.produtosdisponiveis article h3 {
+  margin: 1rem 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.7764705882);
+  text-align: center;
+}
+.produtosdisponiveis article p {
+  margin: 1rem 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f4f4f4;
+  text-align: center;
+}
+.produtosdisponiveis article button {
+  background-color: #ffffff;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 10vh;
+  color: #000000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  border: none;
+  -webkit-box-decoration-break: slice;
+          box-decoration-break: slice;
+}
+.produtosdisponiveis article img {
+  width: 60%;
 }/*# sourceMappingURL=style.css.map */

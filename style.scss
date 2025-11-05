@@ -43,5 +43,56 @@ header{
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+}
+
+.produtosdisponiveis{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    article{
+        box-shadow: #000000 0px 4px 6px -1px;
+        background-color: #f4f4f41d;
+        border-radius: 10px;
+        width: 18%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin-left: 10vh;
+        margin-top: 10vh;
+        justify-content: space-between;
+
+        h3{
+            margin: 1rem 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #000000c6;
+            text-align: center;
+        }
+
+        p{
+            margin: 1rem 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #f4f4f4;
+            text-align: center;
+            
+        }
+        button{
+            background-color: #ffffff;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-radius: 10vh;
+            color: #000000;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            border: none;
+            box-decoration-break: slice;
+        }
+
+        img {
+            width: 60%;
+        }
+}
 
 }
