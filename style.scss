@@ -9,15 +9,16 @@
     //Between o primeiro e o último elemento ficam grudados no começo e final.
 }
 body{
-    background-color: #333;
+    background-color: #ffffff;
 }
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #f4f4f4;
-    box-shadow: #000000 0px 4px 6px -1px;
+    box-shadow: #02521a 0px 4px 6px -1px;
 
     img{
         width: 5vh;
@@ -27,24 +28,123 @@ header{
 
     h1{
         font-size: 5vh;
-        margin-left: 2vh;
-        margin-right: 116vh;
+        margin-right: 110vh;
+        padding-left: 10rem;
         border-radius: 10px;
         padding: 5px;
         color: rgb(39, 39, 39);
-        text-shadow: 2px 2px 5px #424242 ;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: poppins, sans-serif;
     }
-    nav a{
-        
+    
+    
+    a{
         margin: 0 1vh 10vh;
         text-decoration: none;
-        color: #333;
+        color: #4B5563;
         font-weight: bold;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: poppins, sans-serif;
+        
     }
+    
 }
 
+.btnverde{
+    background-color: #10B981;
+    padding: 1rem 2rem;
+    margin-right: 10px;
+    border-radius: 1vh;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.caixaapresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    padding-bottom: 15rem;
+    margin-top: 3rem;
+    img{
+        width: 50vh;
+        height: 50vh;
+        margin-left: auto;
+        margin-top: 5vh;
+        margin-bottom: -15rem;
+    }
+    h2{
+        font-family: poppins, sans-serif;
+        color: #1F2937;
+        margin-top: -20vh;
+        margin-left: 0;
+        margin-right: 40%;
+        padding-right: 5%;
+        padding-bottom: 1rem;
+        font-size: 8vh;
+        text-align: left;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #4B5563;
+        margin-top: 2vh;
+        margin-left: 0;
+        margin-right: 45%;
+        margin-bottom: 5rem;
+        padding-right: 1%;
+        font-size: 3vh;
+        text-align: left;
+    }
+    
+}
+
+.btnverdeazul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 22rem;
+    border-radius: 1vh;
+    border: none;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    cursor: pointer;
+}
+.btnverdedoar{
+    display: flex;
+    flex-direction: row;
+    background-color: #10B981;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1vh;
+    border: none;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    cursor: pointer;
+    img{
+        width: 2vh;
+        height: 2vh;
+        margin-top: 0rem;
+        margin-left: 15px;
+    }
+}
+.btnadquirir{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1vh;
+    border: solid #2563EB 1px;
+    color: #2563EB;
+    font-family: poppins, sans-serif;
+    cursor: pointer;
+    img{
+        width: 2vh;
+        height: 2vh;
+        margin-top: 0rem;
+        margin-left: 15px;
+    }
+}
 .produtosdisponiveis{
     display: flex;
     justify-content: space-around;
@@ -62,11 +162,11 @@ header{
         padding: 10px;
         margin-left: 10vh;
         margin-top: 10vh;
-        justify-content: space-between;
+        justify-content: space-around;
 
         h3{
             margin: 1rem 0;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: poppins, sans-serif;
             color: #000000c6;
             text-align: center;
         }
