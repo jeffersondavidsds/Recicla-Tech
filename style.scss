@@ -20,21 +20,25 @@ header{
     background-color: #f4f4f4;
     box-shadow: #02521a 0px 4px 6px -1px;
 
-    img{
+    .logo{
+        display: flex;
+        border: solid;
+
+        img{
         width: 5vh;
         height: 5vh;
     }
 
 
     h1{
+        
         font-size: 5vh;
-        margin-right: 110vh;
-        padding-left: 10rem;
-        border-radius: 10px;
-        padding: 5px;
         color: rgb(39, 39, 39);
         font-family: poppins, sans-serif;
     }
+
+    }
+    
     
     
     a{
@@ -195,4 +199,57 @@ header{
         }
 }
 
+}
+
+@media (max-width: 500px) {
+    body{
+     background-color: #ffffff;
+    }
+    header{
+        height: 20vh;
+        flex-direction: column;
+        align-items: center;
+        background-color: aqua;
+      nav{
+        border: solid;
+        width: 90%;
+
+        a{
+            font-size: 1rem;
+        }
+      }
+        h1{
+        font-size: 3vh;
+        margin-left: 111vh;
+        }
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .caixaapresentacao{
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 30vh;
+            height: 30vh;
+            margin-left: auto;
+            margin-top: 5vh;
+            margin-bottom: -10rem;
+        }
+        h2{
+            font-size: 5vh;
+            margin-top: 10vh;
+            margin-right: 0;
+            padding-right: 0;
+        }
+        p{
+            font-size: 2vh;
+            margin-right: 0;
+        }
+    }
+    .produtosdisponiveis{
+        flex-direction: column;
+        
+    }
 }
