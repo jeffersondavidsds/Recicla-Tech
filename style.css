@@ -311,4 +311,68 @@ header a {
     height: auto;
     margin: 0 auto;
   }
+  .carrossel {
+    border: solid;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+    padding: 1rem;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  .produtosdisponiveis {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    background: rgba(172, 172, 172, 0.1450980392);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    scroll-snap-align: center;
+    transition: transform 0.3s;
+  }
+  .produtosdisponiveis:hover {
+    transform: scale(1.05);
+  }
+  .produtosdisponiveis article {
+    box-shadow: #000000 0px 4px 6px -1px;
+    background-color: rgba(244, 244, 244, 0.1137254902);
+    border-radius: 10px;
+    width: 500px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .produtosdisponiveis article h3 {
+    margin: 1rem 0;
+    font-family: poppins, sans-serif;
+    color: rgba(0, 0, 0, 0.7764705882);
+    text-align: center;
+  }
+  .produtosdisponiveis article p {
+    margin: 1rem 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-align: center;
+  }
+  .produtosdisponiveis article button {
+    background-color: #26a02c;
+    margin: 2;
+    padding: 1rem;
+    border-radius: 10rem;
+    color: #000000;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    border: none;
+    -webkit-box-decoration-break: slice;
+            box-decoration-break: slice;
+  }
+  .produtosdisponiveis article img {
+    width: 180px;
+  }
+  .produtosdisponiveis article:hover {
+    background-color: #15803d;
+  }
 }/*# sourceMappingURL=style.css.map */
