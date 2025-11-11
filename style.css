@@ -18,19 +18,18 @@ header {
 }
 header .logo {
   display: flex;
-  border: solid;
 }
 header .logo img {
-  width: 5vh;
-  height: 5vh;
+  width: 35px;
+  height: 35px;
 }
 header .logo h1 {
-  font-size: 5vh;
+  font-size: 2rem;
   color: rgb(39, 39, 39);
   font-family: poppins, sans-serif;
 }
 header a {
-  margin: 0 1vh 10vh;
+  margin: 0 1rem 10rem;
   text-decoration: none;
   color: #4B5563;
   font-weight: bold;
@@ -62,17 +61,15 @@ header a {
   width: 50vh;
   height: 50vh;
   margin-left: auto;
-  margin-top: 5vh;
-  margin-bottom: -15rem;
+  margin-top: 0;
+  margin-bottom: -23.5rem;
 }
 .caixaapresentacao h2 {
   font-family: poppins, sans-serif;
   color: #1F2937;
-  margin-top: -20vh;
+  margin-top: 0rem;
   margin-left: 0;
   margin-right: 40%;
-  padding-right: 5%;
-  padding-bottom: 1rem;
   font-size: 8vh;
   text-align: left;
 }
@@ -83,7 +80,6 @@ header a {
   margin-left: 0;
   margin-right: 45%;
   margin-bottom: 5rem;
-  padding-right: 1%;
   font-size: 3vh;
   text-align: left;
 }
@@ -112,8 +108,8 @@ header a {
   cursor: pointer;
 }
 .btnverdedoar img {
-  width: 2vh;
-  height: 2vh;
+  width: 20px;
+  height: 20px;
   margin-top: 0rem;
   margin-left: 15px;
 }
@@ -130,8 +126,8 @@ header a {
   cursor: pointer;
 }
 .btnadquirir img {
-  width: 2vh;
-  height: 2vh;
+  width: 23px;
+  height: 20px;
   margin-top: 0rem;
   margin-left: 15px;
 }
@@ -189,46 +185,130 @@ header a {
     background-color: #ffffff;
   }
   header {
-    height: 20vh;
+    height: 100px;
     flex-direction: column;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
   }
   header nav {
-    border: solid;
-    width: 90%;
-  }
-  header nav a {
-    font-size: 1rem;
-  }
-  header h1 {
-    font-size: 3vh;
-    margin-left: 111vh;
-  }
-}
-@media screen and (max-width: 768px) {
-  .caixaapresentacao {
-    flex-direction: column;
     align-items: center;
   }
-  .caixaapresentacao img {
-    width: 30vh;
-    height: 30vh;
-    margin-left: auto;
-    margin-top: 5vh;
-    margin-bottom: -10rem;
+  header nav a {
+    font-size: 9px;
+    font-weight: 600;
+    justify-content: center;
   }
-  .caixaapresentacao h2 {
-    font-size: 5vh;
-    margin-top: 10vh;
-    margin-right: 0;
-    padding-right: 0;
+  header h1 {
+    font-size: 1rem;
+    margin-left: 1rem;
   }
-  .caixaapresentacao p {
-    font-size: 2vh;
-    margin-right: 0;
+  header .btnverde {
+    padding: 10px;
   }
-  .produtosdisponiveis {
+  .btnverdeazul .btnverdedoar {
+    display: flex;
+    flex-direction: row;
+    background-color: #10B981;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1vh;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    cursor: pointer;
+  }
+  .btnverdeazul .btnverdedoar img {
+    width: 20px;
+    height: 20px;
+    margin-top: 0rem;
+    margin-left: 15px;
+  }
+  .btnverdeazul .btnadquirir {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1vh;
+    border: solid #2563EB 1px;
+    color: #2563EB;
+    font-family: poppins, sans-serif;
+    cursor: pointer;
+  }
+  .btnverdeazul .btnadquirir img {
+    width: 23px;
+    height: 20px;
+    margin-top: 0rem;
+    margin-left: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .caixaapresentacao {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .caixaapresentacao .textoapresentacao {
+    display: flex;
     flex-direction: column;
+  }
+  .caixaapresentacao .textoapresentacao h2 {
+    font-family: "Poppins", sans-serif;
+    color: #1F2937;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 10px 0 10px 0;
+    max-width: 100%;
+    border: none;
+  }
+  .caixaapresentacao .textoapresentacao p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #1F2937;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    max-width: 90%;
+    border: none;
+  }
+  .caixaapresentacao .btnverdeazul .btnverdedoar {
+    display: flex;
+    flex-direction: row;
+    background-color: #10B981;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1vh;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    cursor: pointer;
+  }
+  .caixaapresentacao .btnverdeazul .btnverdedoar img {
+    width: 20px;
+    height: 20px;
+    margin-top: 0rem;
+    margin-left: 15px;
+  }
+  .caixaapresentacao .btnverdeazul .btnadquirir {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1vh;
+    border: solid #2563EB 1px;
+    color: #2563EB;
+    font-family: poppins, sans-serif;
+    cursor: pointer;
+  }
+  .caixaapresentacao .btnverdeazul .btnadquirir img {
+    width: 23px;
+    height: 20px;
+    margin-top: 0rem;
+    margin-left: 15px;
+  }
+  .caixaapresentacao img {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=style.css.map */
