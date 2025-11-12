@@ -64,87 +64,45 @@ header{
 }
 
 .caixaapresentacao{
+    
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-right: 10rem;
-    margin-left: 10rem;
-    padding-bottom: 15rem;
-    margin-top: 3rem;
-    img{
-        width: 50vh;
-        height: 50vh;
-        margin-left: auto;
-        margin-top: 0;
-        margin-bottom: -23.5rem;
+    justify-content: space-around;
+    height: 70vh;
+
+    section{
+        padding: 10px 30px 20px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        h2{
+            font-size: 3.5rem;
+            width: 60%;
+        }
+
+        p{
+            font-size: 2rem;
+            width: 70%;
+        }
     }
-    h2{
-        font-family: poppins, sans-serif;
-        color: #1F2937;
-        margin-top: 0rem;
-        margin-left: 0;
-        margin-right: 40%;
-        font-size: 8vh;
-        text-align: left;
-    }
-    p{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: #4B5563;
-        margin-top: 2vh;
-        margin-left: 0;
-        margin-right: 45%;
-        margin-bottom: 5rem;
-        font-size: 3vh;
-        text-align: left;
+
+    .btnverdeazul{
+        background-color: #02521a;
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
     }
     
+
+    
+
 }
 
-.btnverdeazul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 22rem;
-    border-radius: 1vh;
-    border: none;
-    color: #ffffff;
-    font-family: poppins, sans-serif;
-    cursor: pointer;
-}
-.btnverdedoar{
-    display: flex;
-    flex-direction: row;
-    background-color: #10B981;
-    padding: 1.5rem 1.5rem;
-    border-radius: 1vh;
-    border: none;
-    color: #ffffff;
-    font-family: poppins, sans-serif;
-    cursor: pointer;
-    img{
-        width: 20px;
-        height: 20px;
-        margin-top: 0rem;
-        margin-left: 15px;
-    }
-}
-.btnadquirir{
-    display: flex;
-    flex-direction: row;
-    background-color: #ffffff;
-    padding: 1.5rem 1.5rem;
-    border-radius: 1vh;
-    border: solid #2563EB 1px;
-    color: #2563EB;
-    font-family: poppins, sans-serif;
-    cursor: pointer;
-    img{
-        width: 23px;
-        height: 20px;
-        margin-top: 0rem;
-        margin-left: 15px;
-    }
-}
+
 .produtosdisponiveis{
     display: flex;
     justify-content: space-around;
@@ -224,135 +182,56 @@ header{
         }
     }
     
-    .btnverdeazul{
-        .btnverdedoar{
-            display: flex;
-            flex-direction: row;
-            background-color: #10B981;
-            padding: 1.5rem 1.5rem;
-            border-radius: 1vh;
-            color: #ffffff;
-            font-family: poppins, sans-serif;
-            cursor: pointer;
-            img{
-                width: 20px;
-                height: 20px;
-                margin-top: 0rem;
-                margin-left: 15px;
-            }
-
-        }
-
-        .btnadquirir{
-            display: flex;
-            flex-direction: row;
-            background-color: #ffffff;
-            padding: 1.5rem 1.5rem;
-            border-radius: 1vh;
-            border: solid #2563EB 1px;
-            color: #2563EB;
-            font-family: poppins, sans-serif;
-            cursor: pointer;
-            img{
-                width: 23px;
-                height: 20px;
-                margin-top: 0rem;
-                margin-left: 15px;
-            }
-
-        }
-
-    }
     
 }
 
+
+
 @media screen and (max-width: 500px) {
-  .caixaapresentacao {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;      
-    justify-content: center;  
-    text-align: center;       
-    margin: 0 auto;
-    padding: 1rem;
-    box-sizing: border-box;
-    width: 100%;
+    
 
-    .textoapresentacao{
-        display: flex;
+    .caixaapresentacao{
         flex-direction: column;
-    
-    h2 {
-      font-family: 'Poppins', sans-serif;
-      color: #1F2937;
-      font-size: 35px;
-      font-weight: 700;
-      margin: 10px 0 10px 0;
-      max-width: 100%;
-      border: none;
-    }
+        align-items: center;
 
-    p {
-      font-family: 'Poppins', sans-serif;
-      font-size: 15px;
-      color: #1F2937;
-      line-height: 1.5;
-      margin: 0 0 20px 0;
-      max-width: 90%;
-      border: none;
-    }
+        img{
+            width: 50vw;
+        }
 
-    }
-    
-    .btnverdeazul{
+    section{
+        justify-content: space-evenly;
+        text-align: center;
+        height: 50vh;
+        h2{
+            font-size: 1.5rem;
+            width: 100%;
+            
+        }
+        p{
+            width: 100%;
+            font-size: 1.5rem;
+        }
         
-        .btnverdedoar{
-            display: flex;
-            flex-direction: row;
-            background-color: #10B981;
-            padding: 1.5rem 1.5rem;
-            border-radius: 1vh;
-            color: #ffffff;
-            font-family: poppins, sans-serif;
-            cursor: pointer;
-            img{
-                width: 20px;
-                height: 20px;
-                margin-top: 0rem;
-                margin-left: 15px;
-            }
-
-        }
-
-        .btnadquirir{
-            display: flex;
-            flex-direction: row;
-            background-color: #ffffff;
-            padding: 1.5rem 1.5rem;
-            border-radius: 1vh;
-            border: solid #2563EB 1px;
-            color: #2563EB;
-            font-family: poppins, sans-serif;
-            cursor: pointer;
-            img{
-                width: 23px;
-                height: 20px;
-                margin-top: 0rem;
-                margin-left: 15px;
-            }
-
-        }
-
     }
+    .btnverdeazul{
+    
+    border: solid red;
+    width: 100%;
+    justify-content: space-around;
+    
 
-    img {
-      width: 250px;
-      height: auto;
-      margin: 0 auto;
+    button{
+        padding: 10px 20px;
     }
-  }
+    img{
+        width: 10px;
+    }
+}
+}
+
+
+
   .carrossel {
-    border: solid;
   display: flex;
   overflow-x: auto;          // permite rolar na horizontal
   scroll-snap-type: x mandatory; // faz o “efeito de encaixe”
